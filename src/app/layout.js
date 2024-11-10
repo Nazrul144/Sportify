@@ -3,6 +3,7 @@ import "./globals.css";
 import { Roboto} from 'next/font/google'
 import Heading from "@/components/Heading";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -33,7 +34,7 @@ export default function RootLayout({ children }) {
       >
         <Navbar/>
         {children}
-        <Heading/>
+        <Footer/>
       </body>
     </html>
   );
