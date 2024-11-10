@@ -1,9 +1,10 @@
+import AllProduct from '@/pages/AllProduct';
 import React from 'react';
 
 const AllProductsPage = () => {
     return (
         <div>
-            <h1>This is all products page.</h1>
+           <AllProduct/>
         </div>
     );
 }

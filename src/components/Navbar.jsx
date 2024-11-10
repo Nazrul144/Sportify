@@ -1,6 +1,8 @@
+"use client"
 import React from 'react';
 import { Roboto} from 'next/font/google'
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 const roboto = Roboto({
     weight: ['400', '700'],
@@ -8,6 +10,8 @@ const roboto = Roboto({
   })
 
 const Navbar = () => {
+  const pathName = usePathname();
+  console.log(pathName);
     const links = [
         {
             title: "Home",
@@ -48,7 +52,7 @@ const Navbar = () => {
         tabIndex={0}
         className={`font-bold text-xl menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ${roboto.className}`}>
         {
-            links?.map(link=><Link href={link.path} className='font-bold'>{link.title}</Link>)
+            links?.map(link=><Link href={link.path} className={`${pathName === link.path && "text-red-400"}`}>{link.title}</Link>)
         }
       </ul>
     </div>
@@ -57,7 +61,7 @@ const Navbar = () => {
   <div className="navbar-center hidden lg:flex">
     <ul className={`font-bold space-x-4 text-2xl menu menu-horizontal px-1 ${roboto.className}`}>
         {
-            links?.map(link=><Link href={link.path} className='font-bold'>{link.title}</Link>)
+            links?.map(link=><Link href={link.path} className={`${pathName === link.path && "text-red-400"}`}>{link.title}</Link>)
         }
     </ul>
   </div>
