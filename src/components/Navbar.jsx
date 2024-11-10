@@ -1,13 +1,22 @@
 "use client"
 import React from 'react';
-import { Roboto} from 'next/font/google'
+import { Roboto, Merriweather} from 'next/font/google'
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { Button } from "@/components/ui/button"
+import { MdShoppingCart } from "react-icons/md";
 
 const roboto = Roboto({
     weight: ['400', '700'],
+    style: ['normal', 'italic'],
     subsets: ['latin'],
   })
+
+const lovely = Merriweather({
+  weight: ['400', '900'],
+  subsets: ['latin'],
+  style: ['normal', 'italic'],
+})  
 
 const Navbar = () => {
   const pathName = usePathname();
@@ -52,21 +61,24 @@ const Navbar = () => {
         tabIndex={0}
         className={`font-bold text-xl menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ${roboto.className}`}>
         {
-            links?.map(link=><Link href={link.path} className={`${pathName === link.path && "text-red-400"}`}>{link.title}</Link>)
+            links?.map(link=><Link href={link.path} className={`${pathName === link.path && "text-red-400"}`} key={link.path}>{link.title}</Link>)
         }
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">Sportify</a>
+    {/* <a className={`btn btn-ghost text-xl ${roboto.className}`}>Sport<span>ify</span></a> */}
+    <span className={`text-purple-600 font-bold text-lg ${lovely.className}`}>Sport</span><span className={`text-[#FF5733]
+    font-bold text-lg ${lovely.className}`}>ify</span>
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className={`font-bold space-x-4 text-2xl menu menu-horizontal px-1 ${roboto.className}`}>
+    <ul className={`font-bold space-x-4 text-lg menu menu-horizontal px-1 ${roboto.className}`}>
         {
-            links?.map(link=><Link href={link.path} className={`${pathName === link.path && "text-red-400"}`}>{link.title}</Link>)
+            links?.map(link=><Link href={link.path} className={`${pathName === link.path && "text-red-400"}`} key={link.path}>{link.title}</Link>)
         }
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Button</a>
+    <MdShoppingCart className='mr-4 text-5xl' />
+    <Button className={`text-lg py-6 text-purple-600 font-bold ${roboto.className}`} variant="outline"><Link href={'/signin'}>Get Started</Link></Button>
   </div>
 </div>
     );
