@@ -59,26 +59,26 @@ const Navbar = () => {
       </div>
       <ul
         tabIndex={0}
-        className={`font-bold text-xl menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ${roboto.className}`}>
+        className={`font-bold lg:text-xl menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ${roboto.className}`}>
         {
             links?.map(link=><Link href={link.path} className={`${pathName === link.path && "text-red-400"}`} key={link.path}>{link.title}</Link>)
         }
       </ul>
     </div>
     {/* <a className={`btn btn-ghost text-xl ${roboto.className}`}>Sport<span>ify</span></a> */}
-    <span className={`text-purple-600 font-bold text-lg ${lovely.className}`}>Sport</span><span className={`text-[#FF5733]
-    font-bold text-lg ${lovely.className}`}>ify</span>
+    <span className={`text-purple-600 font-bold lg:text-lg ${lovely.className}`}>Sport</span><span className={`text-[#FF5733]
+    font-bold lg:text-lg ${lovely.className}`}>ify</span>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className={`font-bold space-x-4 text-lg menu menu-horizontal px-1 ${roboto.className}`}>
         {
-            links?.map(link=><Link href={link.path} className={`${pathName === link.path && "text-red-400"}`} key={link.path}>{link.title}</Link>)
+            links?.map(link=><Link href={link.path} className={`${pathName === link.path && "text-[#FF5733] border-b-[1px] border-[#FF5733]"}`} key={link.path}>{link.title}</Link>)
         }
     </ul>
   </div>
   <div className="navbar-end">
-    <MdShoppingCart className='mr-4 text-5xl' />
-    <Button className={`text-lg py-6 text-purple-600 font-bold ${roboto.className}`} variant="outline"><Link href={'/signin'}>Get Started</Link></Button>
+    <MdShoppingCart className='lg:mr-4 text-4xl' />
+    <Button className={`lg:text-lg text-purple-600 font-bold ${roboto.className}`} variant="outline"><Link href={'/signin'}>Signin</Link></Button>
   </div>
 </div>
     );
