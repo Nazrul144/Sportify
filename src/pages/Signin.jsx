@@ -8,7 +8,14 @@ const Signin = () => {
         <div className="p-4 shadow-md xl:mx-auto xl:w-full xl:max-w-sm 2xl:max-w-md">
           <div className="mb-2 flex justify-center"></div>
           <h2 className="text-center text-2xl font-bold leading-tight text-black">Sign in to your account</h2>
-          <p className="mt-2 text-center text-sm text-gray-600">
+          <span class="relative flex justify-center">
+  <div
+    class="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-gray-500 to-transparent opacity-75"
+  ></div>
+
+  <span class="relative z-10 bg-white px-6">or</span>
+</span>
+          <p className="text-center text-sm text-gray-600">
             Don&apos;t have an account?{" "}
             <Link href={"/signup"} className="font-bold text-sky-400">
               Sign up
