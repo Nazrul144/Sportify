@@ -3,7 +3,7 @@ export default function Home() {
   return (
    <div>
     <nav>
-      Hello world
+      Page of Home page
     </nav>
    </div>
   );
