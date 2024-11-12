@@ -65,7 +65,6 @@ const Navbar = () => {
         }
       </ul>
     </div>
-    {/* <a className={`btn btn-ghost text-xl ${roboto.className}`}>Sport<span>ify</span></a> */}
     <span className={`text-purple-600 font-bold lg:text-lg ${lovely.className}`}>Sport</span><span className={`text-[#FF5733]
     font-bold lg:text-lg ${lovely.className}`}>ify</span>
   </div>

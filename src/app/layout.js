@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
         className="w-11/12 mx-auto" 
       >
         <Navbar/>
-        <div className="h-screen">
+        <div >
         {children}
         </div>
         <Footer/>
