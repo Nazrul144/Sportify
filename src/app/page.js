@@ -3,7 +3,7 @@ export default function Home() {
   return (
    <div>
     <nav>
-      Page of Home page
+    <h1>Sportify</h1>
     </nav>
    </div>
   );

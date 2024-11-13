@@ -4,12 +4,10 @@ import { Roboto, Merriweather, Lobster } from "next/font/google";
 import image from "../../public/about.jpg";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { FaArrowAltCircleRight } from "react-icons/fa";
 import joy from "../../public/joy.jpeg";
 import nazrul from "../../public/cover1.png";
 import fahad from "../../public/fahad.jpeg";
 import Link from "next/link";
-import { Flex, Progress, Slider, Typography } from "antd";
 
 const lobster = Lobster({
   weight: ["400"],
