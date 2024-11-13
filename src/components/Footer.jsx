@@ -137,7 +137,7 @@ const Footer = () => {
               </Link>
             </li>
 
-            <li>
+            {/* <li>
               <Link href="#" rel="noreferrer" target="_blank" className="text-gray-300 transition hover:text-gray-300/75">
                 <span className="sr-only">Dribbble</span>
                 <svg className="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -148,7 +148,7 @@ const Footer = () => {
                   />
                 </svg>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </footer>
