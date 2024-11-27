@@ -1,0 +1,253 @@
+
+[
+  {
+    "id": 1,
+    "name": "Nike Air Max 270",
+    "category": "Shoes",
+    "price": 120.99,
+    "image": "https://i.ibb.co/vwsgf1H/image-1500x1080.png",
+    "description": "High-performance running shoes with excellent cushioning.",
+    "stock": 25,
+    "ratings": 4.8
+  },
+  {
+    "id": 2,
+    "name": "Adidas Predator Soccer Ball",
+    "category": "Balls",
+    "price": 29.99,
+    "image": "https://i.ibb.co/QdWBwrg/5bbb0ea939e83210855569.jpg",
+    "description": "Durable soccer ball designed for professional gameplay.",
+    "stock": 50,
+    "ratings": 4.5
+  },
+  {
+    "id": 3,
+    "name": "Wilson Pro Staff Tennis Racket",
+    "category": "Rackets",
+    "price": 249.99,
+    "image": "https://i.ibb.co/0hfC3nc/WPS97-R1.webp",
+    "description": "Premium tennis racket for advanced players.",
+    "stock": 15,
+    "ratings": 4.9
+  },
+  {
+    "id": 4,
+    "name": "Puma Training T-Shirt",
+    "category": "Apparel",
+    "price": 35.99,
+    "image": "https://i.ibb.co/qB9RLKm/286281-Main-Thumb-1389647.jpg",
+    "description": "Lightweight and breathable t-shirt for workouts.",
+    "stock": 100,
+    "ratings": 4.7
+  },
+  {
+    "id": 5,
+    "name": "Under Armour Gym Bag",
+    "category": "Accessories",
+    "price": 59.99,
+    "image": "https://i.ibb.co/vxH3zTx/Travel-Bag-Under-Armour-Ash-Red-Mixed-A.jpg",
+    "description": "Spacious and durable bag for carrying gym essentials.",
+    "stock": 40,
+    "ratings": 4.6
+  },
+  {
+    "id": 6,
+    "name": "Reebok Yoga Mat",
+    "category": "Fitness",
+    "price": 25.49,
+    "image": "https://i.ibb.co/bJP7qhy/mat-red.png",
+    "description": "Non-slip yoga mat for ultimate comfort.",
+    "stock": 30,
+    "ratings": 4.4
+  },
+  {
+    "id": 7,
+    "name": "Spalding NBA Basketball",
+    "category": "Balls",
+    "price": 34.99,
+    "image": "https://i.ibb.co/2SXYF6c/4538aa64-8145-44a9-988d-f735cd914ba2-4-03fc451ad67d600d853f35b1c296510a.webp",
+    "description": "Official NBA basketball with superior grip.",
+    "stock": 45,
+    "ratings": 4.6
+  },
+  {
+    "id": 8,
+    "name": "Yonex Badminton Racket",
+    "category": "Rackets",
+    "price": 89.99,
+    "image": "https://i.ibb.co/XJQn2yL/51666f7533ad8df89e715d6da6f97d00.jpg",
+    "description": "Lightweight racket for precision gameplay.",
+    "stock": 20,
+    "ratings": 4.8
+  },
+  {
+    "id": 9,
+    "name": "Columbia Fleece Jacket",
+    "category": "Apparel",
+    "price": 75.99,
+    "image": "https://i.ibb.co/2dP08fm/700x700-zaketa-fleece-columbia-mens-steens-mountain-full-zip-20-black-pr-40837.jpg",
+    "description": "Warm and comfortable fleece jacket for outdoor activities.",
+    "stock": 60,
+    "ratings": 4.7
+  },
+  {
+    "id": 10,
+    "name": "Fitbit Charge 5",
+    "category": "Wearables",
+    "price": 149.99,
+    "image": "https://i.ibb.co/6Y5Mpyq/Fitbit-Charge-5-Fitness-Tracker-Steel-Blue-and-Platinum-Stainless-Steel-ba5585d3-b08c-42bb-b457-4cb1.webp",
+    "description": "Advanced fitness tracker with multiple health features.",
+    "stock": 35,
+    "ratings": 4.9
+  },
+  {
+    "id": 11,
+    "name": "Speedo Swim Goggles",
+    "category": "Accessories",
+    "price": 19.99,
+    "image": "https://i.ibb.co/L8BPH9f/853.jpg",
+    "description": "Anti-fog swim goggles with UV protection.",
+    "stock": 50,
+    "ratings": 4.5
+  },
+  {
+    "id": 12,
+    "name": "Nike Dri-FIT Shorts",
+    "category": "Apparel",
+    "price": 29.99,
+    "image": "https://i.ibb.co/ygSt2tm/61-U11-Zu-XLUL-AC-UL1500.jpg",
+    "description": "Moisture-wicking shorts for maximum comfort.",
+    "stock": 80,
+    "ratings": 4.8
+  },
+  {
+    "id": 13,
+    "name": "Garmin Forerunner 245",
+    "category": "Wearables",
+    "price": 299.99,
+    "image": "https://i.ibb.co/K0YqWJ1/sc-01-lg-e5f4e874-6025-411a-85b9-d2a92a979ac8.webp",
+    "description": "GPS running smartwatch with advanced training features.",
+    "stock": 25,
+    "ratings": 4.9
+  },
+  {
+    "id": 14,
+    "name": "Callaway Golf Clubs Set",
+    "category": "Golf",
+    "price": 499.99,
+    "image": "https://i.ibb.co/2NvzTNh/Paradym-XDeluxe-Complete-Set-1200x.webp",
+    "description": "Premium golf clubs for professional performance.",
+    "stock": 10,
+    "ratings": 4.8
+  },
+  {
+    "id": 15,
+    "name": "Everlast Punching Bag",
+    "category": "Fitness",
+    "price": 99.99,
+    "image": "https://i.ibb.co/58jz8Hp/P00001266-01.jpg",
+    "description": "Durable punching bag for boxing and martial arts training.",
+    "stock": 18,
+    "ratings": 4.7
+  },
+  {
+    "id": 16,
+    "name": "Adidas Running Cap",
+    "category": "Accessories",
+    "price": 17.99,
+    "image": "https://i.ibb.co/7kBxtxK/Running-Packable-HEAT-RDY-X-City-Cap-Black-HT4816-01-standard.jpg",
+    "description": "Lightweight cap with sweat-wicking technology.",
+    "stock": 70,
+    "ratings": 4.5
+  },
+  {
+    "id": 17,
+    "name": "Under Armour Compression Shirt",
+    "category": "Apparel",
+    "price": 45.99,
+    "image": "https://i.ibb.co/tx1hdcc/UA-Heat-Gear-Armour-Kompressionsshirt-1361518-001.jpg",
+    "description": "Tight-fitting shirt for enhanced performance.",
+    "stock": 55,
+    "ratings": 4.7
+  },
+  {
+    "id": 18,
+    "name": "Asics Gel Running Shoes",
+    "category": "Shoes",
+    "price": 139.99,
+    "image": "https://i.ibb.co/p2YxbqG/asics-gel-nimbus-22-original-jpegquality-30-format-webp.webp",
+    "description": "Comfortable running shoes with gel cushioning.",
+    "stock": 30,
+    "ratings": 4.9
+  },
+  {
+    "id": 19,
+    "name": "Mizuno Volleyball",
+    "category": "Balls",
+    "price": 39.99,
+    "image": "https://i.ibb.co/b3Kzwhc/430305-2-P2-P.jpg",
+    "description": "Official volleyball with excellent grip and durability.",
+    "stock": 40,
+    "ratings": 4.6
+  },
+  {
+    "id": 20,
+    "name": "Brooks Trail Running Shoes",
+    "category": "Shoes",
+    "price": 129.99,
+    "image": "https://i.ibb.co/r5Zx1rY/cascadia-17-gtx-w-navy-bittersweet1-l.webp",
+    "description": "Trail running shoes designed for rugged terrain.",
+    "stock": 22,
+    "ratings": 4.8
+  },
+  {
+    "id": 21,
+    "name": "New Balance Joggers",
+    "category": "Apparel",
+    "price": 49.99,
+    "image": "https://i.ibb.co/wKjbKx3/new-balance-essentials-celebrate-jogger-pants.webp",
+    "description": "Comfortable and stylish joggers for workouts.",
+    "stock": 75,
+    "ratings": 4.6
+  },
+  {
+    "id": 22,
+    "name": "Titleist Golf Ball Pack",
+    "category": "Golf",
+    "price": 24.99,
+    "image": "https://i.ibb.co/Sy5ykz6/Titleist-Pro-V1-Golf-Balls-Mint-Refinished-Quality-30-Pack-White-d1c0eb3f-2d25-4d21-915c-86131bffc31.webp",
+    "description": "High-quality golf balls for consistent performance.",
+    "stock": 60,
+    "ratings": 4.7
+  },
+  {
+    "id": 23,
+    "name": "Skechers Walking Shoes",
+    "category": "Shoes",
+    "price": 89.99,
+    "image": "https://i.ibb.co/80WwDT0/196989224855-1.webp",
+    "description": "Lightweight walking shoes with superior comfort.",
+    "stock": 45,
+    "ratings": 4.8
+  },
+  {
+    "id": 24,
+    "name": "Champion Sweatpants",
+    "category": "Apparel",
+    "price": 29.99,
+    "image": "https://i.ibb.co/G7dBMpt/University-of-Delaware-Champion-Sweatpants-Charcoal-2.jpg",
+    "description": "Soft and cozy sweatpants for everyday wear.",
+    "stock": 90,
+    "ratings": 4.6
+  },
+  {
+    "id": 25,
+    "name": "Wilson Volleyball Net",
+    "category": "Accessories",
+    "price": 89.99,
+    "image": "https://i.ibb.co/DD9fXS8/wilson-ez-tennis-net-3-2m-kit-31591-90583.jpg",
+    "description": "Portable volleyball net for professional and casual play.",
+    "stock": 15,
+    "ratings": 4.7
+  }
+]
